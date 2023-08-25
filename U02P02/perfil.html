@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Perfil - Castelli Mariano</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="background-color:firebrick;">Solicitamos que ingrese sus datos personales, junto a algunas preferencias;
+        para una mejor experiencia en la
+        página.</h1> <br>
+    <fieldset>
+        <legend><b>Información Personal</b></legend>
+        <form>
+            <input type="text" value="ESTUDIANTE" readonly> <br>
+            <br>
+            <label for="usuario">Nombre Completo</label>
+            <input type="text" id="name" name="name" /><br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <br>
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" min="0"><br>
+            <br>
+
+            <label for="nacion">Nacionalidad</label>
+            <select name="nacion" id="nacion">
+                <option value="Argentina" selected>Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Chile">Chile</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Otro">Otro</option>
+
+            </select>
+            <br>
+            <br>
+            <label for="laboral">Condicion Laboral</label>
+            <select name="laboral" id="laboral">
+                <option value="desempleado" selected>Desempleado</option>
+                <option value="en búsqueda">En búsqueda laboral,</option>
+                <option value="part time">Trabajo part time</option>
+                <option value="full time">trabajo full time</option>
+            </select>
+        </form>
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+    <form>
+        <legend><b>Información de gustos personales</b></legend>
+        <br>
+        <label for="musica">Género musical favorito</label>
+            <input type="text" id="musica" name="musica" /><br>
+            <br>
+            <label for="comida">Comida Favorita</label>
+            <select name="comida" id="comida">
+                <option value="Pastas" selected>Pastas</option>
+                <option value="Frituras">Frituras</option>
+                <option value="Carnes">Carnes</option>
+                <option value="Verduras">Verduras</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <label><input type="checkbox" name="No cerrar sesión"> Recordar mis datos</label><br>
+            <br>
+            <input type="submit" value="Enviar">
+    </form>
+</fieldset>
+</body>
+
+</html>
